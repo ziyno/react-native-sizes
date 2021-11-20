@@ -1,0 +1,31 @@
+{
+  "name": "react-native-sizes",
+  "version": "1.0.0",
+  "description": "Make React Native views responsive across all devices.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziyno/react-native-sizes.git"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "responsive",
+    "responsive-size",
+    "responsive-screen",
+    "responsive-design",
+    "responsive-ui"
+  ],
+  "author": "Ziyno <hello@ziyno.com> (https://github.com/ziyno)",
+  "contributors": [
+    "Emre Önal <emre@ziyno.com> (https://github.com/onalemre)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziyno/react-native-sizes/issues"
+  },
+  "homepage": "https://github.com/ziyno/react-native-sizes",
+  "peerDependencies": {
+    "react-native": ">=0.35"
+  }
+}
