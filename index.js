@@ -1,6 +1,4 @@
-import { Dimensions, PixelRatio } from 'react-native';
-
-var window = Dimensions.get('window');
+import { PixelRatio, useWindowDimensions } from 'react-native';
 
 function h(pixel) {
   if (typeof pixel !== 'number') {
@@ -8,7 +6,7 @@ function h(pixel) {
   }
 
   return PixelRatio.roundToNearestPixel(
-    (window.height * (pixel / 640) * 100) / 100
+    (useWindowDimensions().height * (pixel / 640) * 100) / 100
   );
 }
 
@@ -18,7 +16,7 @@ function w(pixel) {
   }
 
   return PixelRatio.roundToNearestPixel(
-    (window.width * (pixel / 360) * 100) / 100
+    (useWindowDimensions().width * (pixel / 360) * 100) / 100
   );
 }
 
